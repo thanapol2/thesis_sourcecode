@@ -14,6 +14,7 @@
 ## Official paper
 
 1.  **Elastic data binning (E-Binning)**
+	Extended version
 ```
 @article{10.1145/3610409.3610410,
     author = {Phungtua-eng, Thanapol and Sako, Shigeyuki and Nishikawa, Yushi and Yamamoto, Yoshitaka},
@@ -35,6 +36,26 @@
     keywords = {time-series sketching, student's t-test, lightcurve, hoeffding inequality, data binning}
 }
 ```
+SAC'2023 paper
+```
+@inproceedings{10.1145/3555776.3577606,
+author = {Phungtua-Eng, Thanapol and Yamamoto, Yoshitaka and Sako, Shigeyuki},
+title = {Elastic Data Binning for Transient Pattern Analysis in Time-Domain Astrophysics},
+year = {2023},
+isbn = {9781450395175},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3555776.3577606},
+doi = {10.1145/3555776.3577606},
+booktitle = {Proceedings of the 38th ACM/SIGAPP Symposium on Applied Computing},
+pages = {342–349},
+numpages = {8},
+keywords = {lightcurve, student's t-test, hoeffding inequality, data sketching, data binning},
+location = {Tallinn, Estonia},
+series = {SAC '23}
+}
+```
+
 2. **Online Season Length Estimation (OnlineSLE)**
 ```
 @inproceedings{OnlineSLE,
@@ -57,6 +78,16 @@
 	address="Cham",
 	pages="426--443",
 	isbn="978-3-031-70344-7"
+}
+```
+## Cite this work
+
+```
+@article{phungtua2024research,
+  title={Research on Time Series Decomposition for Real-time Analysis of Dynamic and Stable Behaviors in Streaming Data},
+  author={Phungtua-eng, Thanapol},
+  year={2024},
+  publisher={Shizuoka University}
 }
 ```
 
